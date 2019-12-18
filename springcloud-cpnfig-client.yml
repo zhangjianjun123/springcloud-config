@@ -1,5 +1,5 @@
 server:
-  port: 0000
+  port: 1000
 spring:
   profiles: dev
   application:
@@ -10,7 +10,7 @@ eureka:
       defaultZone: http://zjjnb1109000.com:9000/eureka/
 ---
 server:
-  port: 0001
+  port: 1001
 spring:
   profiles: test
   application:
