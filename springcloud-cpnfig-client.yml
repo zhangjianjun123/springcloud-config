@@ -1,0 +1,21 @@
+server:
+  port: 0000
+spring:
+  profiles: dev
+  application:
+    name: springcloud-cpnfig-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://zjjnb1109000.com:9000/eureka/
+---
+server:
+  port: 0001
+spring:
+  profiles: test
+  application:
+    name: springcloud-cpnfig-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://zjjnb1109000.com:9000/eureka/
