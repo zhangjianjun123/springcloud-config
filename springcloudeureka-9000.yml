@@ -1,10 +1,10 @@
 spring:
   profiles:
     active:
-      -dev
+      - dev
 ---
 server:
-     port:9000
+     port: 9000
 eureka:
   instance:
     hostname: zjjnb1109000.com
@@ -23,7 +23,7 @@ spring:
     name: springcloudeureka-9000
   profiles: test
 server:
-  port:9000
+  port: 9000
 eureka:
   instance:
     hostname: zjjnb1109000.com
