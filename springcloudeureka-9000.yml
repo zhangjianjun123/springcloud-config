@@ -1,0 +1,34 @@
+spring:
+  profiles:
+    active:
+      -dev
+---
+server:
+     port:9000
+eureka:
+  instance:
+    hostname: zjjnb1109000.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://zjjnb1109001.com:9001/eureka/
+spring:
+  application:
+    name: springcloudeureka-9000
+  profiles: dev
+---
+spring:
+  application:
+    name: springcloudeureka-9000
+  profiles: test
+server:
+  port:9000
+eureka:
+  instance:
+    hostname: zjjnb1109000.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://zjjnb1109001.com:9001/eureka/
