@@ -12,7 +12,7 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://zjjnb1109001.com:9001/eureka/
+      defaultZone: http://zjjnb1109001.com:9000/eureka/
 spring:
   application:
     name: springcloudeureka-9000
@@ -31,4 +31,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://zjjnb1109001.com:9001/eureka/
+      defaultZone: http://zjjnb1109000.com:9000/eureka/
