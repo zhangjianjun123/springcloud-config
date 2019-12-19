@@ -23,7 +23,7 @@ spring:
     name: springcloudeureka-9000
   profiles: test
 server:
-  port: 9000
+  port: 9001
 eureka:
   instance:
     hostname: zjjnb1109000.com
@@ -31,4 +31,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://zjjnb1109000.com:9000/eureka/
+      defaultZone: http://zjjnb1109000.com:9001/eureka/
